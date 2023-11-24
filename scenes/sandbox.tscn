@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://4uwp41y0jgeg"]
+[gd_scene load_steps=17 format=3 uid="uid://4uwp41y0jgeg"]
 
 [ext_resource type="PackedScene" uid="uid://da3uo3lsnp1uo" path="res://buildings/tavern.tscn" id="1_bvxig"]
 [ext_resource type="PackedScene" uid="uid://csjcwdp2fjmy0" path="res://tiles/fantasytown/ground/roadCurb.glb" id="2_40ukn"]
@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://clmuabiwxdd45" path="res://tiles/fantasytown/wall/hedgeCurved.glb" id="13_sra6d"]
 [ext_resource type="PackedScene" uid="uid://d4cgd7tvgmmsi" path="res://tiles/fantasytown/wall/hedge.glb" id="14_761r7"]
 [ext_resource type="PackedScene" uid="uid://caslo3qogk0mj" path="res://tiles/fantasytown/ground/roadCornerInner.glb" id="15_fecpk"]
+[ext_resource type="PackedScene" uid="uid://cnh8lc5s115wc" path="res://models/characters/base_m.blend" id="16_trdxv"]
 
 [node name="sandbox" type="Node3D"]
 
@@ -842,9 +843,10 @@ transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 
 [node name="Decor" type="Node3D" parent="."]
 
 [node name="lantern" parent="Decor" instance=ExtResource("6_qtbve")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 2)
 
 [node name="lantern2" parent="Decor" instance=ExtResource("6_qtbve")]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
 
 [node name="tree" parent="Decor" instance=ExtResource("7_s3ukx")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 3)
@@ -979,24 +981,27 @@ transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -7, 0, -
 transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -8, 0, -5)
 
 [node name="lantern3" parent="Decor" instance=ExtResource("6_qtbve")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7)
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 7)
 
 [node name="lantern4" parent="Decor" instance=ExtResource("6_qtbve")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 7)
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, -10, 0, 7)
 
 [node name="lantern5" parent="Decor" instance=ExtResource("6_qtbve")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -6)
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, -10, 0, -6)
 
 [node name="lantern6" parent="Decor" instance=ExtResource("6_qtbve")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, -6)
 
 [node name="lantern7" parent="Decor" instance=ExtResource("6_qtbve")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 1)
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, -10, 0, 1)
 
 [node name="lantern8" parent="Decor" instance=ExtResource("6_qtbve")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 7)
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, -5, 0, 7)
 
 [node name="lantern9" parent="Decor" instance=ExtResource("6_qtbve")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -6)
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, -5, 0, -6)
+
+[node name="base_m" parent="." instance=ExtResource("16_trdxv")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1, 0.026097, 1)
 
 [editable path="Tavern"]
