@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ckljl0txmrvmw"
-path="res://.godot/imported/stairsWoodHandrail.glb-e7425799bcc6a7b647a2b04228718350.scn"
+path="res://.godot/imported/stairsWoodHandrail.glb-6c8bae10d559e7bab48c3b171430dc69.scn"
 
 [deps]
 
-source_file="res://tiles/fantasytown/floor/stairsWoodHandrail.glb"
-dest_files=["res://.godot/imported/stairsWoodHandrail.glb-e7425799bcc6a7b647a2b04228718350.scn"]
+source_file="res://tiles/fantasytown/stairs/stairsWoodHandrail.glb"
+dest_files=["res://.godot/imported/stairsWoodHandrail.glb-6c8bae10d559e7bab48c3b171430dc69.scn"]
 
 [params]
 

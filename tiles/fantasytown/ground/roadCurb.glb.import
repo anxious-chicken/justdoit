@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c87mroynphy1w"
-path="res://.godot/imported/roadCurbEnd.glb-7a810ecd5974337f2dbf3e234f638a2e.scn"
+uid="uid://csjcwdp2fjmy0"
+path="res://.godot/imported/roadCurb.glb-9153db7946264f0877d42a76926f18ee.scn"
 
 [deps]
 
-source_file="res://tiles/fantasytown/floor/roadCurbEnd.glb"
-dest_files=["res://.godot/imported/roadCurbEnd.glb-7a810ecd5974337f2dbf3e234f638a2e.scn"]
+source_file="res://tiles/fantasytown/ground/roadCurb.glb"
+dest_files=["res://.godot/imported/roadCurb.glb-9153db7946264f0877d42a76926f18ee.scn"]
 
 [params]
 

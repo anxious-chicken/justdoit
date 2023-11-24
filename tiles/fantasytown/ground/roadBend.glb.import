@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://d4adgcp0ycako"
-path="res://.godot/imported/roadSlope.glb-61a9fc0b0d43fbea84366ac22c2b6ed3.scn"
+uid="uid://gumkl0jqkrow"
+path="res://.godot/imported/roadBend.glb-f6ee177231ef58239fa611e89b82f5c8.scn"
 
 [deps]
 
-source_file="res://tiles/fantasytown/floor/roadSlope.glb"
-dest_files=["res://.godot/imported/roadSlope.glb-61a9fc0b0d43fbea84366ac22c2b6ed3.scn"]
+source_file="res://tiles/fantasytown/ground/roadBend.glb"
+dest_files=["res://.godot/imported/roadBend.glb-f6ee177231ef58239fa611e89b82f5c8.scn"]
 
 [params]
 

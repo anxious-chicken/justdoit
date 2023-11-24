@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dsuxi783snycf"
-path="res://.godot/imported/stairsWideStone.glb-dc00fdbbe56500dd70c30b3262bb6731.scn"
+uid="uid://d4adgcp0ycako"
+path="res://.godot/imported/roadSlope.glb-87744b5676fa9d830f2b4a82ae411a7d.scn"
 
 [deps]
 
-source_file="res://tiles/fantasytown/floor/stairsWideStone.glb"
-dest_files=["res://.godot/imported/stairsWideStone.glb-dc00fdbbe56500dd70c30b3262bb6731.scn"]
+source_file="res://tiles/fantasytown/ground/roadSlope.glb"
+dest_files=["res://.godot/imported/roadSlope.glb-87744b5676fa9d830f2b4a82ae411a7d.scn"]
 
 [params]
 

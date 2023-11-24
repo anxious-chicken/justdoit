@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://ux3ocdp3r0mc"
-path="res://.godot/imported/stairsWideStoneHandrail.glb-4c582052d33665fd7c73139bb13e7b5e.scn"
+uid="uid://cxt7sg7vf8o0j"
+path="res://.godot/imported/stairsFullCornerOuter.glb-b0e21f70d84961ff8d858114645a7d40.scn"
 
 [deps]
 
-source_file="res://tiles/fantasytown/floor/stairsWideStoneHandrail.glb"
-dest_files=["res://.godot/imported/stairsWideStoneHandrail.glb-4c582052d33665fd7c73139bb13e7b5e.scn"]
+source_file="res://tiles/fantasytown/stairs/stairsFullCornerOuter.glb"
+dest_files=["res://.godot/imported/stairsFullCornerOuter.glb-b0e21f70d84961ff8d858114645a7d40.scn"]
 
 [params]
 

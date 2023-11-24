@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c3loi5nsjqxpu"
-path="res://.godot/imported/stairsWood.glb-2559196d3fff22a9b3847a095c398659.scn"
+uid="uid://dhn13g31blnjw"
+path="res://.godot/imported/stairsWideWood.glb-b86e299259edc53375d9eaad684f8db0.scn"
 
 [deps]
 
-source_file="res://tiles/fantasytown/floor/stairsWood.glb"
-dest_files=["res://.godot/imported/stairsWood.glb-2559196d3fff22a9b3847a095c398659.scn"]
+source_file="res://tiles/fantasytown/stairs/stairsWideWood.glb"
+dest_files=["res://.godot/imported/stairsWideWood.glb-b86e299259edc53375d9eaad684f8db0.scn"]
 
 [params]
 
