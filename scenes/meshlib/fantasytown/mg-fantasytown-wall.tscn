@@ -1,0 +1,235 @@
+[gd_scene load_steps=78 format=3 uid="uid://k0y5722hqg15"]
+
+[ext_resource type="PackedScene" uid="uid://dhr8w37nshoo6" path="res://tiles/fantasytown/wall/balconyWall.glb" id="1_51fji"]
+[ext_resource type="PackedScene" uid="uid://gvgcblj5g3ou" path="res://tiles/fantasytown/wall/balconyWallFence.glb" id="2_4b6d3"]
+[ext_resource type="PackedScene" uid="uid://ci0x01v83dblh" path="res://tiles/fantasytown/wall/fence.glb" id="3_e6o1v"]
+[ext_resource type="PackedScene" uid="uid://b83pgw1gejq8a" path="res://tiles/fantasytown/wall/fenceBroken.glb" id="4_mfblp"]
+[ext_resource type="PackedScene" uid="uid://cahkhhiv1m88u" path="res://tiles/fantasytown/wall/fenceCurved.glb" id="5_yhsu1"]
+[ext_resource type="PackedScene" uid="uid://b37c02ffk2fsj" path="res://tiles/fantasytown/wall/fenceGate.glb" id="6_wnhos"]
+[ext_resource type="PackedScene" uid="uid://d4cgd7tvgmmsi" path="res://tiles/fantasytown/wall/hedge.glb" id="7_5ot76"]
+[ext_resource type="PackedScene" uid="uid://clmuabiwxdd45" path="res://tiles/fantasytown/wall/hedgeCurved.glb" id="8_tm3sj"]
+[ext_resource type="PackedScene" uid="uid://vdyipniljc5s" path="res://tiles/fantasytown/wall/hedgeGate.glb" id="9_grj8o"]
+[ext_resource type="PackedScene" uid="uid://cejyqhmrn2i4p" path="res://tiles/fantasytown/wall/hedgeLarge.glb" id="10_sry1y"]
+[ext_resource type="PackedScene" uid="uid://d1e0ql516k2qb" path="res://tiles/fantasytown/wall/hedgeLargeCurved.glb" id="11_2tco2"]
+[ext_resource type="PackedScene" uid="uid://2ipt06iwkl7p" path="res://tiles/fantasytown/wall/hedgeLargeGate.glb" id="12_gpfqs"]
+[ext_resource type="PackedScene" uid="uid://b5p8r2eoueyn5" path="res://tiles/fantasytown/wall/poles.glb" id="13_au24s"]
+[ext_resource type="PackedScene" uid="uid://ct6wq2rketi5m" path="res://tiles/fantasytown/wall/polesHorizontal.glb" id="14_bphdm"]
+[ext_resource type="PackedScene" uid="uid://d0y3bc5c0ql0e" path="res://tiles/fantasytown/wall/wall.glb" id="15_p7ggp"]
+[ext_resource type="PackedScene" uid="uid://c26q7rjsn8t4p" path="res://tiles/fantasytown/wall/wallArch.glb" id="16_h1q55"]
+[ext_resource type="PackedScene" uid="uid://b45gkj4ig4t22" path="res://tiles/fantasytown/wall/wallArchTop.glb" id="17_nn48q"]
+[ext_resource type="PackedScene" uid="uid://c5lhtkq00brq2" path="res://tiles/fantasytown/wall/wallArchTopDetail.glb" id="18_rcifo"]
+[ext_resource type="PackedScene" uid="uid://cprrnho8tv0qy" path="res://tiles/fantasytown/wall/wallBlock.glb" id="19_syuey"]
+[ext_resource type="PackedScene" uid="uid://ciaosgflf4q23" path="res://tiles/fantasytown/wall/wallBlockHalf.glb" id="20_fosr8"]
+[ext_resource type="PackedScene" uid="uid://cb1c15rfxabaw" path="res://tiles/fantasytown/wall/wallBroken.glb" id="21_qnn43"]
+[ext_resource type="PackedScene" uid="uid://dxctxcws5ppqy" path="res://tiles/fantasytown/wall/wallCorner.glb" id="22_nfq4s"]
+[ext_resource type="PackedScene" uid="uid://bj7h8nofu6xxp" path="res://tiles/fantasytown/wall/wallCornerDetail.glb" id="23_u2vli"]
+[ext_resource type="PackedScene" uid="uid://bn2lx5lyinbkb" path="res://tiles/fantasytown/wall/wallCornerDiagonal.glb" id="24_fkljy"]
+[ext_resource type="PackedScene" uid="uid://c1b7nswcldh3p" path="res://tiles/fantasytown/wall/wallCornerDiagonalHalf.glb" id="25_dj386"]
+[ext_resource type="PackedScene" uid="uid://c2u874tjr5yhx" path="res://tiles/fantasytown/wall/wallCornerEdge.glb" id="26_tupmo"]
+[ext_resource type="PackedScene" uid="uid://rtam2h8j3fx3" path="res://tiles/fantasytown/wall/wallCurved.glb" id="27_11ug4"]
+[ext_resource type="PackedScene" uid="uid://df32b8hckmly1" path="res://tiles/fantasytown/wall/wallDetailCross.glb" id="28_kc1vc"]
+[ext_resource type="PackedScene" uid="uid://cxbb67sdho3na" path="res://tiles/fantasytown/wall/wallDetailDiagonal.glb" id="29_dke21"]
+[ext_resource type="PackedScene" uid="uid://8s3yb3alobig" path="res://tiles/fantasytown/wall/wallDetailHorizontal.glb" id="30_6jo2o"]
+[ext_resource type="PackedScene" uid="uid://bhwx6r52ciafo" path="res://tiles/fantasytown/wall/wallDiagonal.glb" id="31_ls0jy"]
+[ext_resource type="PackedScene" uid="uid://dylvhiqgf1sfo" path="res://tiles/fantasytown/wall/wallDoor.glb" id="32_f3s7v"]
+[ext_resource type="PackedScene" uid="uid://353kc63x1jua" path="res://tiles/fantasytown/wall/wallDoorwayBase.glb" id="33_6ruyp"]
+[ext_resource type="PackedScene" uid="uid://7mbt27feh6iy" path="res://tiles/fantasytown/wall/wallDoorwayRound.glb" id="34_8i5rf"]
+[ext_resource type="PackedScene" uid="uid://cg7dbdl1osnw8" path="res://tiles/fantasytown/wall/wallDoorwaySquare.glb" id="35_tasqt"]
+[ext_resource type="PackedScene" uid="uid://6scu51em1qwc" path="res://tiles/fantasytown/wall/wallDoorwaySquareWide.glb" id="36_qkqul"]
+[ext_resource type="PackedScene" uid="uid://6ncvt2w4motr" path="res://tiles/fantasytown/wall/wallDoorwaySquareWideCurved.glb" id="37_klrg5"]
+[ext_resource type="PackedScene" uid="uid://dsmf2j75j68q1" path="res://tiles/fantasytown/wall/wallHalf.glb" id="38_e45r7"]
+[ext_resource type="PackedScene" uid="uid://cr1m35ej7pkqy" path="res://tiles/fantasytown/wall/wallRounded.glb" id="39_mw8ys"]
+[ext_resource type="PackedScene" uid="uid://brss28kw1jr43" path="res://tiles/fantasytown/wall/wallSide.glb" id="40_58ft7"]
+[ext_resource type="PackedScene" uid="uid://sn5oq8voc7ag" path="res://tiles/fantasytown/wall/wallSlope.glb" id="41_kjmfe"]
+[ext_resource type="PackedScene" uid="uid://uo6mxl83vctl" path="res://tiles/fantasytown/wall/wallWindowGlass.glb" id="42_cdt24"]
+[ext_resource type="PackedScene" uid="uid://wgyu0i2cks1m" path="res://tiles/fantasytown/wall/wallWindowRound.glb" id="43_j0ogg"]
+[ext_resource type="PackedScene" uid="uid://dxrmds5sexy6s" path="res://tiles/fantasytown/wall/wallWindowShutters.glb" id="44_4mghl"]
+[ext_resource type="PackedScene" uid="uid://07dg8cq8yuqs" path="res://tiles/fantasytown/wall/wallWindowSmall.glb" id="45_o8hgi"]
+[ext_resource type="PackedScene" uid="uid://5oicgb6lav8i" path="res://tiles/fantasytown/wall/wallWindowStone.glb" id="46_tut20"]
+[ext_resource type="PackedScene" uid="uid://ck6omcui11vs7" path="res://tiles/fantasytown/wall/wallWood.glb" id="47_n0s5p"]
+[ext_resource type="PackedScene" uid="uid://cf485slfrif3a" path="res://tiles/fantasytown/wall/wallWoodArch.glb" id="48_wmmme"]
+[ext_resource type="PackedScene" uid="uid://e1wstji2cx6a" path="res://tiles/fantasytown/wall/wallWoodArchTop.glb" id="49_xvrs6"]
+[ext_resource type="PackedScene" uid="uid://bpd7m5ghc8o13" path="res://tiles/fantasytown/wall/wallWoodArchTopDetail.glb" id="50_uklax"]
+[ext_resource type="PackedScene" uid="uid://cisf23jkxbs8t" path="res://tiles/fantasytown/wall/wallWoodBlock.glb" id="51_k785b"]
+[ext_resource type="PackedScene" uid="uid://qwuc277u7a3b" path="res://tiles/fantasytown/wall/wallWoodBlockHalf.glb" id="52_fqikq"]
+[ext_resource type="PackedScene" uid="uid://b6p6ip7gg3nop" path="res://tiles/fantasytown/wall/wallWoodBroken.glb" id="53_27edu"]
+[ext_resource type="PackedScene" uid="uid://coaead5tlorwb" path="res://tiles/fantasytown/wall/wallWoodCorner.glb" id="54_fhnn3"]
+[ext_resource type="PackedScene" uid="uid://p3okw0pkmnkf" path="res://tiles/fantasytown/wall/wallWoodCornerDiagonal.glb" id="55_nkj26"]
+[ext_resource type="PackedScene" uid="uid://ddqkbkbywg1ou" path="res://tiles/fantasytown/wall/wallWoodCornerDiagonalHalf.glb" id="56_l66ff"]
+[ext_resource type="PackedScene" uid="uid://d21ttqk0cscmd" path="res://tiles/fantasytown/wall/wallWoodCornerEdge.glb" id="57_rq8i2"]
+[ext_resource type="PackedScene" uid="uid://d2nugb835nw7n" path="res://tiles/fantasytown/wall/wallWoodCurved.glb" id="58_5kw47"]
+[ext_resource type="PackedScene" uid="uid://b45p2wlkm5q2i" path="res://tiles/fantasytown/wall/wallWoodDetailCross.glb" id="59_txuvy"]
+[ext_resource type="PackedScene" uid="uid://dlf1a381hveur" path="res://tiles/fantasytown/wall/wallWoodDetailDiagonal.glb" id="60_7244h"]
+[ext_resource type="PackedScene" uid="uid://dp57wvvisqeq4" path="res://tiles/fantasytown/wall/wallWoodDetailHorizontal.glb" id="61_f1spr"]
+[ext_resource type="PackedScene" uid="uid://dlbycs06n3r60" path="res://tiles/fantasytown/wall/wallWoodDiagonal.glb" id="62_wmigj"]
+[ext_resource type="PackedScene" uid="uid://bxqsfixwcqna4" path="res://tiles/fantasytown/wall/wallWoodDoor.glb" id="63_m125c"]
+[ext_resource type="PackedScene" uid="uid://buf7nt5cxcmf2" path="res://tiles/fantasytown/wall/wallWoodDoorwayBase.glb" id="64_7w348"]
+[ext_resource type="PackedScene" uid="uid://c6m0w7e4cui5j" path="res://tiles/fantasytown/wall/wallWoodDoorwayRound.glb" id="65_no7yd"]
+[ext_resource type="PackedScene" uid="uid://cvvk50bcwhvks" path="res://tiles/fantasytown/wall/wallWoodDoorwaySquare.glb" id="66_5ffft"]
+[ext_resource type="PackedScene" uid="uid://caxqi6yfgl70o" path="res://tiles/fantasytown/wall/wallWoodDoorwaySquareWide.glb" id="67_fc1xi"]
+[ext_resource type="PackedScene" uid="uid://b0ysxj1uo35mj" path="res://tiles/fantasytown/wall/wallWoodDoorwaySquareWideCurved.glb" id="68_1i0ek"]
+[ext_resource type="PackedScene" uid="uid://cvmdkqt32ecll" path="res://tiles/fantasytown/wall/wallWoodHalf.glb" id="69_w2cke"]
+[ext_resource type="PackedScene" uid="uid://b1hi6y632dqod" path="res://tiles/fantasytown/wall/wallWoodRounded.glb" id="70_p71fq"]
+[ext_resource type="PackedScene" uid="uid://l8y8kpd46md4" path="res://tiles/fantasytown/wall/wallWoodSide.glb" id="71_m3jvx"]
+[ext_resource type="PackedScene" uid="uid://bq5fydso7urrl" path="res://tiles/fantasytown/wall/wallWoodSlope.glb" id="72_yrqbi"]
+[ext_resource type="PackedScene" uid="uid://b06l84sv8gjo7" path="res://tiles/fantasytown/wall/wallWoodWindowGlass.glb" id="73_v8n8h"]
+[ext_resource type="PackedScene" uid="uid://c2s8ar2o8a83v" path="res://tiles/fantasytown/wall/wallWoodWindowRound.glb" id="74_601mk"]
+[ext_resource type="PackedScene" uid="uid://bi2wtsgbdxypv" path="res://tiles/fantasytown/wall/wallWoodWindowShutters.glb" id="75_jcwu1"]
+[ext_resource type="PackedScene" uid="uid://ty8q0sw13pvs" path="res://tiles/fantasytown/wall/wallWoodWindowSmall.glb" id="76_05a3w"]
+[ext_resource type="PackedScene" uid="uid://bijxr1lep2j47" path="res://tiles/fantasytown/wall/wallWoodWindowStone.glb" id="77_48h0u"]
+
+[node name="mg-fantasytown-wall" type="Node3D"]
+
+[node name="balconyWall" parent="." instance=ExtResource("1_51fji")]
+
+[node name="balconyWallFence" parent="." instance=ExtResource("2_4b6d3")]
+
+[node name="fence" parent="." instance=ExtResource("3_e6o1v")]
+
+[node name="fenceBroken" parent="." instance=ExtResource("4_mfblp")]
+
+[node name="fenceCurved" parent="." instance=ExtResource("5_yhsu1")]
+
+[node name="fenceGate" parent="." instance=ExtResource("6_wnhos")]
+
+[node name="hedge" parent="." instance=ExtResource("7_5ot76")]
+
+[node name="hedgeCurved" parent="." instance=ExtResource("8_tm3sj")]
+
+[node name="hedgeGate" parent="." instance=ExtResource("9_grj8o")]
+
+[node name="hedgeLarge" parent="." instance=ExtResource("10_sry1y")]
+
+[node name="hedgeLargeCurved" parent="." instance=ExtResource("11_2tco2")]
+
+[node name="hedgeLargeGate" parent="." instance=ExtResource("12_gpfqs")]
+
+[node name="poles" parent="." instance=ExtResource("13_au24s")]
+
+[node name="polesHorizontal" parent="." instance=ExtResource("14_bphdm")]
+
+[node name="wall" parent="." instance=ExtResource("15_p7ggp")]
+
+[node name="wallArch" parent="." instance=ExtResource("16_h1q55")]
+
+[node name="wallArchTop" parent="." instance=ExtResource("17_nn48q")]
+
+[node name="wallArchTopDetail" parent="." instance=ExtResource("18_rcifo")]
+
+[node name="wallBlock" parent="." instance=ExtResource("19_syuey")]
+
+[node name="wallBlockHalf" parent="." instance=ExtResource("20_fosr8")]
+
+[node name="wallBroken" parent="." instance=ExtResource("21_qnn43")]
+
+[node name="wallCorner" parent="." instance=ExtResource("22_nfq4s")]
+
+[node name="wallCornerDetail" parent="." instance=ExtResource("23_u2vli")]
+
+[node name="wallCornerDiagonal" parent="." instance=ExtResource("24_fkljy")]
+
+[node name="wallCornerDiagonalHalf" parent="." instance=ExtResource("25_dj386")]
+
+[node name="wallCornerEdge" parent="." instance=ExtResource("26_tupmo")]
+
+[node name="wallCurved" parent="." instance=ExtResource("27_11ug4")]
+
+[node name="wallDetailCross" parent="." instance=ExtResource("28_kc1vc")]
+
+[node name="wallDetailDiagonal" parent="." instance=ExtResource("29_dke21")]
+
+[node name="wallDetailHorizontal" parent="." instance=ExtResource("30_6jo2o")]
+
+[node name="wallDiagonal" parent="." instance=ExtResource("31_ls0jy")]
+
+[node name="wallDoor" parent="." instance=ExtResource("32_f3s7v")]
+
+[node name="wallDoorwayBase" parent="." instance=ExtResource("33_6ruyp")]
+
+[node name="wallDoorwayRound" parent="." instance=ExtResource("34_8i5rf")]
+
+[node name="wallDoorwaySquare" parent="." instance=ExtResource("35_tasqt")]
+
+[node name="wallDoorwaySquareWide" parent="." instance=ExtResource("36_qkqul")]
+
+[node name="wallDoorwaySquareWideCurved" parent="." instance=ExtResource("37_klrg5")]
+
+[node name="wallHalf" parent="." instance=ExtResource("38_e45r7")]
+
+[node name="wallRounded" parent="." instance=ExtResource("39_mw8ys")]
+
+[node name="wallSide" parent="." instance=ExtResource("40_58ft7")]
+
+[node name="wallSlope" parent="." instance=ExtResource("41_kjmfe")]
+
+[node name="wallWindowGlass" parent="." instance=ExtResource("42_cdt24")]
+
+[node name="wallWindowRound" parent="." instance=ExtResource("43_j0ogg")]
+
+[node name="wallWindowShutters" parent="." instance=ExtResource("44_4mghl")]
+
+[node name="wallWindowSmall" parent="." instance=ExtResource("45_o8hgi")]
+
+[node name="wallWindowStone" parent="." instance=ExtResource("46_tut20")]
+
+[node name="wallWood" parent="." instance=ExtResource("47_n0s5p")]
+
+[node name="wallWoodArch" parent="." instance=ExtResource("48_wmmme")]
+
+[node name="wallWoodArchTop" parent="." instance=ExtResource("49_xvrs6")]
+
+[node name="wallWoodArchTopDetail" parent="." instance=ExtResource("50_uklax")]
+
+[node name="wallWoodBlock" parent="." instance=ExtResource("51_k785b")]
+
+[node name="wallWoodBlockHalf" parent="." instance=ExtResource("52_fqikq")]
+
+[node name="wallWoodBroken" parent="." instance=ExtResource("53_27edu")]
+
+[node name="wallWoodCorner" parent="." instance=ExtResource("54_fhnn3")]
+
+[node name="wallWoodCornerDiagonal" parent="." instance=ExtResource("55_nkj26")]
+
+[node name="wallWoodCornerDiagonalHalf" parent="." instance=ExtResource("56_l66ff")]
+
+[node name="wallWoodCornerEdge" parent="." instance=ExtResource("57_rq8i2")]
+
+[node name="wallWoodCurved" parent="." instance=ExtResource("58_5kw47")]
+
+[node name="wallWoodDetailCross" parent="." instance=ExtResource("59_txuvy")]
+
+[node name="wallWoodDetailDiagonal" parent="." instance=ExtResource("60_7244h")]
+
+[node name="wallWoodDetailHorizontal" parent="." instance=ExtResource("61_f1spr")]
+
+[node name="wallWoodDiagonal" parent="." instance=ExtResource("62_wmigj")]
+
+[node name="wallWoodDoor" parent="." instance=ExtResource("63_m125c")]
+
+[node name="wallWoodDoorwayBase" parent="." instance=ExtResource("64_7w348")]
+
+[node name="wallWoodDoorwayRound" parent="." instance=ExtResource("65_no7yd")]
+
+[node name="wallWoodDoorwaySquare" parent="." instance=ExtResource("66_5ffft")]
+
+[node name="wallWoodDoorwaySquareWide" parent="." instance=ExtResource("67_fc1xi")]
+
+[node name="wallWoodDoorwaySquareWideCurved" parent="." instance=ExtResource("68_1i0ek")]
+
+[node name="wallWoodHalf" parent="." instance=ExtResource("69_w2cke")]
+
+[node name="wallWoodRounded" parent="." instance=ExtResource("70_p71fq")]
+
+[node name="wallWoodSide" parent="." instance=ExtResource("71_m3jvx")]
+
+[node name="wallWoodSlope" parent="." instance=ExtResource("72_yrqbi")]
+
+[node name="wallWoodWindowGlass" parent="." instance=ExtResource("73_v8n8h")]
+
+[node name="wallWoodWindowRound" parent="." instance=ExtResource("74_601mk")]
+
+[node name="wallWoodWindowShutters" parent="." instance=ExtResource("75_jcwu1")]
+
+[node name="wallWoodWindowSmall" parent="." instance=ExtResource("76_05a3w")]
+
+[node name="wallWoodWindowStone" parent="." instance=ExtResource("77_48h0u")]
