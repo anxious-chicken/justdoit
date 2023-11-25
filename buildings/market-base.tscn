@@ -1,0 +1,1038 @@
+[gd_scene load_steps=6 format=3 uid="uid://cliqnt7qxacfy"]
+
+[ext_resource type="PackedScene" uid="uid://hvsdigf3i0fs" path="res://tiles/fantasytown/ground/road.glb" id="3_ufwoc"]
+[ext_resource type="PackedScene" uid="uid://6ueh7nooudlb" path="res://tiles/fantasytown/ground/roadEdge.glb" id="4_72ppn"]
+[ext_resource type="PackedScene" uid="uid://cmnaxiprhmwv4" path="res://tiles/fantasytown/ground/roadCorner.glb" id="5_f1uha"]
+[ext_resource type="PackedScene" uid="uid://caslo3qogk0mj" path="res://tiles/fantasytown/ground/roadCornerInner.glb" id="6_3lrdd"]
+[ext_resource type="PackedScene" uid="uid://dxjtqt5s3rxfm" path="res://tiles/fantasytown/decor/fountainRoundDetail.glb" id="10_f18cn"]
+
+[node name="market-base" type="Node3D"]
+
+[node name="Reference" type="Node3D" parent="."]
+
+[node name="Road" type="Node3D" parent="Reference"]
+
+[node name="road68" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0)
+
+[node name="road69" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 0)
+
+[node name="road70" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -1)
+
+[node name="road71" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -2)
+
+[node name="road72" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -3)
+
+[node name="road73" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -4)
+
+[node name="road74" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -5)
+
+[node name="road75" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -6)
+
+[node name="road76" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -7)
+
+[node name="road84" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -8)
+
+[node name="road77" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 1)
+
+[node name="road78" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 2)
+
+[node name="road79" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 3)
+
+[node name="road80" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 4)
+
+[node name="road81" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 7)
+
+[node name="road82" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 5)
+
+[node name="road83" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 6)
+
+[node name="road85" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0)
+
+[node name="road86" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -1)
+
+[node name="road87" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -2)
+
+[node name="road88" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -3)
+
+[node name="road89" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -4)
+
+[node name="road90" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -5)
+
+[node name="road91" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -6)
+
+[node name="road92" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -7)
+
+[node name="road93" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -8)
+
+[node name="road94" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 1)
+
+[node name="road95" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 2)
+
+[node name="road96" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 3)
+
+[node name="road97" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 4)
+
+[node name="road98" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 7)
+
+[node name="road99" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 5)
+
+[node name="road100" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 6)
+
+[node name="road101" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 0)
+
+[node name="road102" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -1)
+
+[node name="road103" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -2)
+
+[node name="road104" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -3)
+
+[node name="road105" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -4)
+
+[node name="road106" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -5)
+
+[node name="road107" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -6)
+
+[node name="road108" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -7)
+
+[node name="road109" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -8)
+
+[node name="road110" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 1)
+
+[node name="road111" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 2)
+
+[node name="road112" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 3)
+
+[node name="road113" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 4)
+
+[node name="road114" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 7)
+
+[node name="road115" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 5)
+
+[node name="road116" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 6)
+
+[node name="road117" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+
+[node name="road118" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -1)
+
+[node name="road119" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -2)
+
+[node name="road120" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -3)
+
+[node name="road121" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -4)
+
+[node name="road122" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -5)
+
+[node name="road123" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -6)
+
+[node name="road124" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -7)
+
+[node name="road125" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -8)
+
+[node name="road126" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 1)
+
+[node name="road127" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 2)
+
+[node name="road128" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 3)
+
+[node name="road129" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 4)
+
+[node name="road130" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 7)
+
+[node name="road131" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 5)
+
+[node name="road132" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 6)
+
+[node name="road133" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0)
+
+[node name="road134" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -1)
+
+[node name="road135" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -2)
+
+[node name="road136" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -3)
+
+[node name="road137" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -4)
+
+[node name="road138" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -5)
+
+[node name="road139" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -6)
+
+[node name="road140" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -7)
+
+[node name="road141" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -8)
+
+[node name="road142" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1)
+
+[node name="road143" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 2)
+
+[node name="road144" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 3)
+
+[node name="road145" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 4)
+
+[node name="road146" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 7)
+
+[node name="road147" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 5)
+
+[node name="road148" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 6)
+
+[node name="road149" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="road150" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -1)
+
+[node name="road151" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
+
+[node name="road152" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -3)
+
+[node name="road153" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -4)
+
+[node name="road154" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -5)
+
+[node name="road155" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -6)
+
+[node name="road156" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -7)
+
+[node name="road157" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -8)
+
+[node name="road158" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 1)
+
+[node name="road159" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
+
+[node name="road160" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 3)
+
+[node name="road161" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 4)
+
+[node name="road162" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 7)
+
+[node name="road163" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 5)
+
+[node name="road164" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 6)
+
+[node name="road165" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="road166" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1)
+
+[node name="road167" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -2)
+
+[node name="road168" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -3)
+
+[node name="road169" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -4)
+
+[node name="road170" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -5)
+
+[node name="road171" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -6)
+
+[node name="road172" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -7)
+
+[node name="road173" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -8)
+
+[node name="road174" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1)
+
+[node name="road175" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 2)
+
+[node name="road176" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 3)
+
+[node name="road177" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 4)
+
+[node name="road178" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 7)
+
+[node name="road179" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 5)
+
+[node name="road180" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 6)
+
+[node name="road181" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="road182" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -1)
+
+[node name="road183" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -2)
+
+[node name="road184" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -3)
+
+[node name="road185" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -4)
+
+[node name="road186" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -5)
+
+[node name="road187" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -6)
+
+[node name="road188" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -7)
+
+[node name="road189" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -8)
+
+[node name="road190" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+
+[node name="road191" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 2)
+
+[node name="road192" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 3)
+
+[node name="road193" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 4)
+
+[node name="road194" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 7)
+
+[node name="road195" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 5)
+
+[node name="road196" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 6)
+
+[node name="road197" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="road198" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -1)
+
+[node name="road199" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
+
+[node name="road200" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -3)
+
+[node name="road201" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -4)
+
+[node name="road202" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -5)
+
+[node name="road203" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -6)
+
+[node name="road204" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -7)
+
+[node name="road205" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -8)
+
+[node name="road206" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 1)
+
+[node name="road207" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
+
+[node name="road208" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 3)
+
+[node name="road209" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 4)
+
+[node name="road210" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 7)
+
+[node name="road211" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 5)
+
+[node name="road212" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 6)
+
+[node name="road213" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+
+[node name="road214" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -1)
+
+[node name="road215" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -2)
+
+[node name="road216" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -3)
+
+[node name="road217" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -4)
+
+[node name="road218" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -5)
+
+[node name="road219" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -6)
+
+[node name="road220" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -7)
+
+[node name="road221" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -8)
+
+[node name="road222" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 1)
+
+[node name="road223" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 2)
+
+[node name="road224" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 3)
+
+[node name="road225" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 4)
+
+[node name="road226" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 7)
+
+[node name="road227" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 5)
+
+[node name="road228" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 6)
+
+[node name="road229" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+
+[node name="road230" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -1)
+
+[node name="road231" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2)
+
+[node name="road232" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -3)
+
+[node name="road233" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -4)
+
+[node name="road234" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -5)
+
+[node name="road235" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -6)
+
+[node name="road236" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -7)
+
+[node name="road237" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -8)
+
+[node name="road238" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 1)
+
+[node name="road239" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 2)
+
+[node name="road240" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 3)
+
+[node name="road241" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 4)
+
+[node name="road242" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 7)
+
+[node name="road243" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 5)
+
+[node name="road244" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 6)
+
+[node name="road245" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0)
+
+[node name="road246" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -1)
+
+[node name="road247" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -2)
+
+[node name="road248" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -3)
+
+[node name="road249" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -4)
+
+[node name="road250" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -5)
+
+[node name="road251" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -6)
+
+[node name="road252" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -7)
+
+[node name="road253" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -8)
+
+[node name="road254" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 1)
+
+[node name="road255" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 2)
+
+[node name="road256" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 3)
+
+[node name="road257" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 4)
+
+[node name="road258" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 7)
+
+[node name="road259" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 5)
+
+[node name="road260" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 6)
+
+[node name="road261" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0)
+
+[node name="road262" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -1)
+
+[node name="road263" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -2)
+
+[node name="road264" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -3)
+
+[node name="road265" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -4)
+
+[node name="road266" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -5)
+
+[node name="road267" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -6)
+
+[node name="road268" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -7)
+
+[node name="road269" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -8)
+
+[node name="road270" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 1)
+
+[node name="road271" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 2)
+
+[node name="road272" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 3)
+
+[node name="road273" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 4)
+
+[node name="road274" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 7)
+
+[node name="road275" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 5)
+
+[node name="road276" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 6)
+
+[node name="road277" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 0)
+
+[node name="road278" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -1)
+
+[node name="road279" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -2)
+
+[node name="road280" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -3)
+
+[node name="road281" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -4)
+
+[node name="road282" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -5)
+
+[node name="road283" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -6)
+
+[node name="road284" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -7)
+
+[node name="road285" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -8)
+
+[node name="road286" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 1)
+
+[node name="road287" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 2)
+
+[node name="road288" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 3)
+
+[node name="road289" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 4)
+
+[node name="road290" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 7)
+
+[node name="road291" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 5)
+
+[node name="road292" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 6)
+
+[node name="road293" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 0)
+
+[node name="road294" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -1)
+
+[node name="road295" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -2)
+
+[node name="road296" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -3)
+
+[node name="road297" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -4)
+
+[node name="road298" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -5)
+
+[node name="road299" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -6)
+
+[node name="road300" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -7)
+
+[node name="road301" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -8)
+
+[node name="road302" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 1)
+
+[node name="road303" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 2)
+
+[node name="road304" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 3)
+
+[node name="road305" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 4)
+
+[node name="road306" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 7)
+
+[node name="road307" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 5)
+
+[node name="road308" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 6)
+
+[node name="roadEdge89" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, 5)
+
+[node name="roadEdge90" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, 4)
+
+[node name="roadEdge91" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, 3)
+
+[node name="roadEdge92" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, 2)
+
+[node name="roadEdge75" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, -3)
+
+[node name="roadEdge76" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, -4)
+
+[node name="roadEdge77" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, -5)
+
+[node name="roadEdge88" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, -6)
+
+[node name="roadEdge93" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, -8)
+
+[node name="roadEdge94" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, -7)
+
+[node name="roadEdge27" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, -2)
+
+[node name="roadEdge95" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, -6, 0, -9)
+
+[node name="roadEdge96" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, -5, 0, -9)
+
+[node name="roadEdge97" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, -4, 0, -9)
+
+[node name="roadEdge98" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, -3, 0, -9)
+
+[node name="roadEdge99" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, -1, 0, -9)
+
+[node name="roadEdge100" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, -2, 0, -9)
+
+[node name="roadEdge29" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, -7, 0, -9)
+
+[node name="roadEdge101" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, 2, 0, -9)
+
+[node name="roadEdge102" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, 3, 0, -9)
+
+[node name="roadEdge103" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, 4, 0, -9)
+
+[node name="roadEdge104" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, 5, 0, -9)
+
+[node name="roadEdge105" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, 7, 0, -9)
+
+[node name="roadEdge106" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, 6, 0, -9)
+
+[node name="roadEdge34" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, 1, 0, -9)
+
+[node name="roadEdge107" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, -2, 0, 9)
+
+[node name="roadEdge108" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, -3, 0, 9)
+
+[node name="roadEdge109" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, -4, 0, 9)
+
+[node name="roadEdge110" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, -5, 0, 9)
+
+[node name="roadEdge111" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, -7, 0, 9)
+
+[node name="roadEdge112" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, -6, 0, 9)
+
+[node name="roadEdge35" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, -1, 0, 9)
+
+[node name="roadEdge113" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, 6, 0, 9)
+
+[node name="roadEdge114" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, 5, 0, 9)
+
+[node name="roadEdge115" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, 4, 0, 9)
+
+[node name="roadEdge116" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, 3, 0, 9)
+
+[node name="roadEdge117" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, 1, 0, 9)
+
+[node name="roadEdge118" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, 2, 0, 9)
+
+[node name="roadEdge36" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, 7, 0, 9)
+
+[node name="roadCorner14" parent="Reference/Road" instance=ExtResource("5_f1uha")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 1)
+
+[node name="roadCorner13" parent="Reference/Road" instance=ExtResource("5_f1uha")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -8, 0, -1)
+
+[node name="road309" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 8, 0, 0)
+
+[node name="roadCorner15" parent="Reference/Road" instance=ExtResource("5_f1uha")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 8, 0, -1)
+
+[node name="roadCorner16" parent="Reference/Road" instance=ExtResource("5_f1uha")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 8, 0, 1)
+
+[node name="roadCornerInner" parent="Reference/Road" instance=ExtResource("6_3lrdd")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -8, 0, -9)
+
+[node name="roadEdge119" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, 2)
+
+[node name="roadEdge120" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, 3)
+
+[node name="roadEdge121" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, 4)
+
+[node name="roadEdge122" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, 5)
+
+[node name="roadEdge123" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, 7)
+
+[node name="roadEdge124" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, 6)
+
+[node name="roadCornerInner3" parent="Reference/Road" instance=ExtResource("6_3lrdd")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 8, 0, 9)
+
+[node name="roadEdge125" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, 7)
+
+[node name="road310" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 8)
+
+[node name="road311" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 8)
+
+[node name="road312" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 8)
+
+[node name="road313" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 8)
+
+[node name="road314" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 8)
+
+[node name="road315" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 8)
+
+[node name="road316" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 8)
+
+[node name="road317" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 8)
+
+[node name="road325" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+
+[node name="road326" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+
+[node name="road327" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="road328" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3)
+
+[node name="road329" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="road330" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5)
+
+[node name="road331" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+
+[node name="road332" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -7)
+
+[node name="road333" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8)
+
+[node name="road334" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="road335" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="road336" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="road337" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+
+[node name="road338" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7)
+
+[node name="road339" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5)
+
+[node name="road340" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
+
+[node name="roadEdge37" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(3.0598e-07, 0, -1, 0, 1, 0, 1, 0, 3.0598e-07, 0, 0, -9)
+
+[node name="roadEdge136" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-3.93403e-07, 0, 1, 0, 1, 0, -1, 0, -3.93403e-07, 0, 0, 9)
+
+[node name="road341" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
+
+[node name="road318" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 8)
+
+[node name="road319" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 8)
+
+[node name="road320" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 8)
+
+[node name="road321" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 8)
+
+[node name="road322" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 8)
+
+[node name="road323" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 8)
+
+[node name="road324" parent="Reference/Road" instance=ExtResource("3_ufwoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 8)
+
+[node name="roadEdge133" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, 8)
+
+[node name="roadEdge134" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, 8)
+
+[node name="roadEdge126" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(1, 0, 3.49691e-07, 0, 1, 0, -3.49691e-07, 0, 1, -8, 0, 6)
+
+[node name="roadCornerInner2" parent="Reference/Road" instance=ExtResource("6_3lrdd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 9)
+
+[node name="roadEdge127" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, -6)
+
+[node name="roadEdge128" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, -5)
+
+[node name="roadEdge129" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, -4)
+
+[node name="roadEdge130" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, -3)
+
+[node name="roadEdge135" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, -2)
+
+[node name="roadEdge131" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, -8)
+
+[node name="roadEdge132" parent="Reference/Road" instance=ExtResource("4_72ppn")]
+transform = Transform3D(-1, 0, -4.37114e-07, 0, 1, 0, 4.37114e-07, 0, -1, 8, 0, -7)
+
+[node name="roadCornerInner4" parent="Reference/Road" instance=ExtResource("6_3lrdd")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 8, 0, -9)
+
+[node name="Decor" type="Node3D" parent="Reference"]
+
+[node name="fountainRoundDetail" parent="Reference/Decor" instance=ExtResource("10_f18cn")]
+
+[node name="Walls" type="Node3D" parent="Reference"]
